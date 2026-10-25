@@ -1,0 +1,1 @@
+Inspect the archive manifest, restore to an isolated target, and compare record counts.

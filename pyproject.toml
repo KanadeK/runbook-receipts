@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "runbook-receipts"
+version = "0.1.0"
+description = "Bind explicit runbook reviews to local content snapshots and review age"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "KanadeK"}]
+dependencies = []
+
+[project.scripts]
+runbook-receipts = "runbook_receipts.cli:main"
+
+[project.urls]
+Repository = "https://github.com/KanadeK/runbook-receipts"
+Issues = "https://github.com/KanadeK/runbook-receipts/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]

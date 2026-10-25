@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "runbooks": [
+    {
+      "id": "restore",
+      "document": "docs/restore.md",
+      "inputs": ["scripts", "config/backup.json"],
+      "max_age_days": 30
+    }
+  ]
+}
