@@ -1,0 +1,3 @@
+include CHANGELOG.md CONTRIBUTING.md SECURITY.md .gitattributes
+recursive-include examples *.md *.json *.txt
+recursive-include .github *.yml *.md

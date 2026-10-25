@@ -15,7 +15,7 @@ def main(argv=None):
         "--receipts", default=".runbook-receipts.json", help="relative receipt file"
     )
     parser.add_argument("--format", choices=["text", "json"], default="text")
-    parser.add_argument("--version", action="version", version="runbook-receipts 0.1.0")
+    parser.add_argument("--version", action="version", version="runbook-receipts 0.1.1")
     commands = parser.add_subparsers(dest="command", required=True)
     inspect = commands.add_parser("check", help="read-only freshness check")
     stamp = commands.add_parser("record", help="attest that you reviewed the current inputs")

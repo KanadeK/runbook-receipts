@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1
+
+- Include the complete runnable example, contribution/security guidance and CI
+  configuration in source distributions.
+
 ## 0.1.0
 
 - Record explicit per-runbook reviews with SHA-256 inventories and declared scope.

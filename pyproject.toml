@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "runbook-receipts"
-version = "0.1.0"
+version = "0.1.1"
 description = "Bind explicit runbook reviews to local content snapshots and review age"
 readme = "README.md"
 requires-python = ">=3.11"
